@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Artifact:Artifact xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Artifact="http://documentum.emc.com/infrastructure/12012007/artifact" xmlns:jardef="http://documentum.emc.com/artifact/12012007/jardef" urn="urn:com.emc.ide.artifact.jardef.javalibrary/SIAspectLib?artifactURI=file:/C:/Composer/workspace/SIAspect/Artifacts/Java%20Libraries/siaspectlib.javalibrary" categoryId="com.emc.ide.artifact.jardef.javalibrary">
+  <dataModel xsi:type="jardef:JavaLibrary" objectName="SIAspectLib">
+    <objectType href="urn:com.emc.ide.artifact.dclass/dmc_java_library?name=dmc_java_library#//@dataModel"/>
+    <elements href="urn:com.emc.ide.artifact.jardef.jardef/fastutil?artifactURI=file:/C:/Composer/workspace/SIAspect/Artifacts/JAR%20Definitions/fastutil.jardef#//@dataModel"/>
+    <elements href="urn:com.emc.ide.artifact.jardef.jardef/guava?artifactURI=file:/C:/Composer/workspace/SIAspect/Artifacts/JAR%20Definitions/guava.jardef#//@dataModel"/>
+  </dataModel>
+  <viewModel xsi:type="Artifact:DefaultArtifactViewModel"/>
+</Artifact:Artifact>

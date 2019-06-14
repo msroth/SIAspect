@@ -1,0 +1,10 @@
+register table dm_dbo.si_view (r_object_id string (16), 
+si1 string (64), 
+similar_obj_id string (16), 
+si2 string (64), 
+difference int, 
+similarity double)
+
+update dm_registered object
+set world_table_permit = 3
+where object_name = 'si_view'

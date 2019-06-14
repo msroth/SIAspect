@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config version="1.0">
+	<scope type="dm_sysobject">
+		<component id="find_similar_component">
+			<params>
+		            <param name="objectId" required="true"/>
+         		</params>
+			<pages>
+				<start>/custom/find_similar/find_similar.jsp</start>
+			</pages>
+			<class>com.dm_misc.similarity.webtop.findSimilar</class>
+			<nlsbundle>com.dm_misc.similarity.SIAspectNLS</nlsbundle>
+		</component>
+	</scope>
+</config>

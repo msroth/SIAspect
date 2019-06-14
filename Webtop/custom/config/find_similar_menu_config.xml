@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<scope>
+
+<menuconfig modifies="menubar_tools_menu:webcomponent/config/library/menubar/menubar_component.xml">
+<insertbefore path="menu[name=tools_menu].actionmenuitem[name=tools_subscribe]">
+
+     <actionmenuitem
+        dynamic = "singleselect"
+        id = "find_similar"
+        name = "find_similar"
+        value = "Find Similar"
+        action = "find_similar"
+     	showifinvalid = "true"/>
+
+     <menuseparator/>
+     
+</insertbefore>
+</menuconfig>
+</scope>
+</config>
+
+<!-- action must exist or the meun item won't show up -->

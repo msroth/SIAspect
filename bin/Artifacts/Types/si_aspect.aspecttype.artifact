@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Artifact:Artifact xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Artifact="http://documentum.emc.com/infrastructure/12012007/artifact" xmlns:dclass="http://documentum.emc.com/artifact/12012007/dclass" xmlns:moduledef="http://documentum.emc.com/artifact/12012007/moduledef" urn="urnd:com.emc.ide.artifact.daspect/si_aspect?artifactURI=file:/C:/Documents%20and%20Settings/rothm/workspace/SIAspect/Artifacts/Types/si_aspect.aspecttype" categoryId="com.emc.ide.artifact.daspect">
+  <dataModel xsi:type="dclass:DAspect">
+    <attributes name="si_aspect" typeCategory="ASPECT">
+      <primaryElement>
+        <attributes attr_name="si_value" attr_length="64" ID="2Z7MQMYdAEr9I3QIA9ejEt">
+          <attrAnnotations xsi:type="dclass:AttrDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT" is_required="inherit" read_only="inherit" ignore_immutable="inherit" is_hidden="inherit" not_null="inherit">
+            <default_value expressionText="0">
+              <objectType href="urnd:com.emc.ide.artifact.dclass/dm_literal_expr?name=dm_literal_expr#//@dataModel"/>
+            </default_value>
+          </attrAnnotations>
+          <attrAnnotations xsi:type="dclass:NLSDDInfoSet">
+            <locales xsi:type="dclass:AttrNLSDDInfo" nls_key="en"/>
+          </attrAnnotations>
+          <attr_type xsi:type="dclass:CSDefinedType" values="STRING"/>
+        </attributes>
+        <typeAnnotations xsi:type="dclass:NLSDDInfoSet">
+          <locales xsi:type="dclass:TypeNLSDDInfo" nls_key="en"/>
+        </typeAnnotations>
+        <typeAnnotations xsi:type="dclass:TypeDDInfo" ignore_constraints="INHERIT" is_searchable="INHERIT"/>
+      </primaryElement>
+    </attributes>
+    <moduleAttached xsi:type="moduledef:AspectModuleDef" href="urnd:com.emc.ide.artifact.aspectmoduledef/si_aspect?artifactURI=file:/C:/Documents%20and%20Settings/rothm/workspace/SIAspect/Artifacts/Modules/si_aspect.module#//@dataModel"/>
+  </dataModel>
+  <viewModel xsi:type="Artifact:DefaultArtifactViewModel"/>
+</Artifact:Artifact>

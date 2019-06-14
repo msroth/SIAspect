@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<env_req xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="env_req.xsd">
+    <min_dfc_version version=""/>
+</env_req>

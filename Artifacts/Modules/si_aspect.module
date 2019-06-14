@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Artifact:Artifact xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Artifact="http://documentum.emc.com/infrastructure/12012007/artifact" xmlns:moduledef="http://documentum.emc.com/artifact/12012007/moduledef" urn="urn:com.emc.ide.artifact.aspectmoduledef/si_aspect?artifactURI=file:/C:/Documents%20and%20Settings/rothm/workspace/SIAspect/Artifacts/Modules/si_aspect.module" categoryId="com.emc.ide.artifact.aspectmoduledef">
+  <dataModel xsi:type="moduledef:AspectModuleDef" objectName="si_aspect" contact_info="MS Roth" a_module_type="Aspect">
+    <objectType href="urn:com.emc.ide.artifact.dclass/dmc_aspect_type?name=dmc_aspect_type#//@dataModel"/>
+    <interfaceJars href="urn:com.emc.ide.artifact.jardef.jardef/ISIAspect?artifactURI=file:/C:/Documents%20and%20Settings/rothm/workspace/SIAspect/Artifacts/JAR%20Definitions/isiaspect.jardef#//@dataModel"/>
+    <implementationJars href="urn:com.emc.ide.artifact.jardef.jardef/SIAspectSupport?artifactURI=file:/C:/Documents%20and%20Settings/rothm/workspace/SIAspect/Artifacts/JAR%20Definitions/siaspectsupport.jardef#//@dataModel"/>
+    <implementationJars href="urn:com.emc.ide.artifact.jardef.jardef/siaspect?artifactURI=file:/C:/Composer/workspace/SIAspect/Artifacts/JAR%20Definitions/siaspect.jardef#//@dataModel"/>
+    <runtimeEnvironmentXML objectName="RuntimeEnvironment.xml">
+      <objectType href="urn:com.emc.ide.artifact.dclass/dm_sysobject?name=dm_sysobject#//@dataModel"/>
+      <log/>
+    </runtimeEnvironmentXML>
+    <primaryElement primary_class="com.dm_misc.similarity.SIAspect">
+      <a_interfaces>com.dm_misc.similarity.ISIAspect</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.IDfDocument</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.IDfSysObject</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.IDfPersistentObject</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.IDfTypedObject</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.impl.ISysObject</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.impl.IPersistentObject</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.impl.ITypedObject</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.internal.ITypedObjectInternal</a_interfaces>
+      <a_interfaces>com.documentum.fc.tracing.IUserIdentifyingObject</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.internal.IPersistentObjectInternal</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.internal.ISysObjectInternal</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.impl.IAliasResolution</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.IDfSysObjectInternal</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.IDfPersistentObjectInternal</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.IDfSysObjectRetention</a_interfaces>
+      <a_interfaces>com.documentum.fc.impl.util.reflection.proxy.IProxyTarget</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.relationship.IDfRelatable</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.aspect.IDfAspects</a_interfaces>
+      <a_interfaces>java.lang.Cloneable</a_interfaces>
+      <a_interfaces>com.documentum.fc.client.IDfTypedObjectInternal</a_interfaces>
+    </primaryElement>
+    <miscellaneous objectName="Miscellaneous">
+      <objectType href="urn:com.emc.ide.artifact.dclass/dm_folder?name=dm_folder#//@dataModel"/>
+    </miscellaneous>
+    <aspectTypeRef href="urn:com.emc.ide.artifact.daspect/si_aspect?artifactURI=file:/C:/Documents%20and%20Settings/rothm/workspace/SIAspect/Artifacts/Types/si_aspect.aspecttype#//@dataModel"/>
+  </dataModel>
+  <viewModel xsi:type="Artifact:DefaultArtifactViewModel"/>
+</Artifact:Artifact>

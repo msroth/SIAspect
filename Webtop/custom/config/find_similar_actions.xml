@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config version = "1.0">
+	<scope>
+		<action id = "find_similar">
+			<execution class="com.documentum.web.formext.action.LaunchComponent">
+				<component>find_similar_component</component>
+				<container>dialogcontainer</container>
+				<arguments>
+				</arguments>
+			</execution>
+			<invocation>
+				    <modalpopup>
+				       <windowsize>large</windowsize>
+				       <refreshparentwindow>onok</refreshparentwindow>
+				    </modalpopup>
+			</invocation>
+		</action>
+		
+	</scope>
+</config>

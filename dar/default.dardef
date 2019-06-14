@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Artifact:Artifact xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Artifact="http://documentum.emc.com/infrastructure/12012007/artifact" xmlns:dardef="http://documentum.emc.com/infrastructure/12012007/dardef" xmlns:dclass="http://documentum.emc.com/artifact/12012007/dclass" xmlns:installparameter="installparameter" xmlns:jardef="http://documentum.emc.com/artifact/12012007/jardef" xmlns:moduledef="http://documentum.emc.com/artifact/12012007/moduledef" urn="urn:com.emc.ide.artifact.dardef/default?artifactURI=file:/C:/Documents%20and%20Settings/rothm/workspace/SIAspect/dar/default.dardef" categoryId="com.emc.ide.artifact.dardef">
+  <dataModel xsi:type="dardef:DarDef" objectName="SIAspect" contentType="jar" sourceDir="bin" name="SIAspect">
+    <objectType href="urn:com.emc.ide.artifact.dclass/dmc_dar?artifactURI=platform:/resource/DFS2/inst/dclass/dmc_dar.type#//@dataModel"/>
+    <version/>
+    <artifacts xsi:type="jardef:JarDef" href="urn:com.emc.ide.artifact.jardef.jardef/SIAspectSupport?artifactURI=file:/C:/Documents%20and%20Settings/rothm/workspace/SIAspect/Artifacts/JAR%20Definitions/siaspectsupport.jardef#//@dataModel"/>
+    <artifacts xsi:type="jardef:JarDef" href="urn:com.emc.ide.artifact.jardef.jardef/siaspect?artifactURI=file:/C:/Composer/workspace/SIAspect/Artifacts/JAR%20Definitions/siaspect.jardef#//@dataModel"/>
+    <artifacts xsi:type="jardef:JarDef" href="urn:com.emc.ide.artifact.jardef.jardef/ISIAspect?artifactURI=file:/C:/Documents%20and%20Settings/rothm/workspace/SIAspect/Artifacts/JAR%20Definitions/isiaspect.jardef#//@dataModel"/>
+    <artifacts xsi:type="jardef:JarDef" href="urn:com.emc.ide.artifact.jardef.jardef/guava?artifactURI=file:/C:/Composer/workspace/SIAspect/Artifacts/JAR%20Definitions/guava.jardef#//@dataModel"/>
+    <artifacts xsi:type="jardef:JarDef" href="urn:com.emc.ide.artifact.jardef.jardef/fastutil?artifactURI=file:/C:/Composer/workspace/SIAspect/Artifacts/JAR%20Definitions/fastutil.jardef#//@dataModel"/>
+    <artifacts xsi:type="jardef:JavaLibrary" href="urn:com.emc.ide.artifact.jardef.javalibrary/SIAspectLib?artifactURI=file:/C:/Composer/workspace/SIAspect/Artifacts/Java%20Libraries/siaspectlib.javalibrary#//@dataModel"/>
+    <artifacts xsi:type="dclass:DAspect" href="urn:com.emc.ide.artifact.daspect/si_aspect?artifactURI=file:/C:/Documents%20and%20Settings/rothm/workspace/SIAspect/Artifacts/Types/si_aspect.aspecttype#//@dataModel"/>
+    <artifacts xsi:type="moduledef:AspectModuleDef" href="urn:com.emc.ide.artifact.aspectmoduledef/si_aspect?artifactURI=file:/C:/Documents%20and%20Settings/rothm/workspace/SIAspect/Artifacts/Modules/si_aspect.module#//@dataModel"/>
+    <artifacts xsi:type="installparameter:FolderParameter" href="urn:com.emc.ide.folderparameter/Dar+Install+Folder?artifactURI=file:/C:/Documents%20and%20Settings/rothm/workspace/SIAspect/Artifacts/Installation%20Parameters/darinstallfolder.parameter#//@dataModel"/>
+    <artifacts xsi:type="dclass:DClass" href="urn:com.emc.ide.artifact.dclass/dmc_dar?artifactURI=platform:/resource/DFS2/inst/dclass/dmc_dar.type#//@dataModel"/>
+    <artifacts xsi:type="dardef:DarDef" href="urn:com.emc.ide.artifact.dardef/default?artifactURI=file:/C:/Documents%20and%20Settings/rothm/workspace/SIAspect/dar/default.dardef#//@dataModel"/>
+    <darInstallOptionsSet>
+      <location xsi:type="installparameter:FolderParameter" href="urn:com.emc.ide.folderparameter/Dar+Install+Folder?artifactURI=file:/C:/Documents%20and%20Settings/rothm/workspace/SIAspect/Artifacts/Installation%20Parameters/darinstallfolder.parameter#//@dataModel"/>
+      <upgradeOption xsi:type="dardef:UpgradeOption"/>
+    </darInstallOptionsSet>
+  </dataModel>
+</Artifact:Artifact>
